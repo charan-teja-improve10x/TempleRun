@@ -12,6 +12,10 @@ public class Player extends Character{
         System.out.println("Running........");
     }
 
+    public void setScore(int score) {
+        this.score = score;
+    }
+
     public int getScore() {
         return score;
     }
